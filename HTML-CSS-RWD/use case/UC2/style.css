@@ -1,0 +1,49 @@
+
+        #containner
+        {
+            margin:20 auto;
+
+        }
+        #boxContainner
+        {
+            
+            margin: 0 auto;
+            position:relative;
+            height:600px;
+            width:600px;
+            border: 1px solid bisque;
+        }
+        .boxSpecific
+        {
+            background: greenyellow;
+            position: absolute;
+            height:100px;
+            width:100px;
+            border:1px solid brown;
+        }
+        #topleft
+        {
+           top:200px;
+           left:150;
+        }
+        #topright
+        {
+            top:200px;
+            right:200px;
+
+        }
+        #bottomleft
+        {
+            bottom:180px;
+            left:150px;
+        }
+        #bottomright
+        {
+            bottom:180px;
+            right:200px;
+        }
+        #center
+        {
+            top:260px;
+            left:220px;
+        }

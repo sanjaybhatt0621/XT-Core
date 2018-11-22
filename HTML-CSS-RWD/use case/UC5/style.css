@@ -1,0 +1,52 @@
+body,html {
+    margin: 0;
+	padding: 0;
+  }
+  .wrapper
+  {
+  width:80%;
+  margin:0 auto;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  table,
+  th,
+  td {
+    background-color: beige;
+    border: 2px black solid;
+    border-collapse: collapse;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+  }
+  caption {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(233, 161, 110);
+    border: 2px black solid;
+  }
+  .highlighted,
+  th {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  .red {
+    color: red;
+    font-weight: bold;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .italics {
+    font-style: italic;
+    font-size: 12px;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+  }

@@ -1,0 +1,36 @@
+ html, body
+        {
+            margin : 0px;
+        }
+        section
+        {
+            display:flex;
+        }
+        #containner
+        {
+            margin:0 auto;
+            width:300px;
+            margin-top: 100px;
+            border: 1px solid aquamarine;
+        }
+        article
+        {
+            font-family: sans-serif;
+            font-size: 20;
+            background-color: bisque;
+            width:50px;
+            height: 40px;
+            border: 1px solid bisque;
+            margin: 2px;
+            padding:10px;
+            text-align: center;
+        }
+        #first
+        {
+            text-decoration: underline;
+            text-align: right;
+            background-color: whitesmoke;
+            display:block;
+            width:100%;
+            
+        }
