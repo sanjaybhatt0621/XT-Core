@@ -18,11 +18,11 @@ Create calculator using flexbox layout, which shows how to create complex layout
 
 ## Week2
 
-### 5. UC5-> UI for agoda.com
-Create main page of agoda.com
+### 5. UC5-> Temprature Table
 
 
-### 6. UC6->Sapient Tours
+###Â 6. UC6->Sapient Tours
 Create a web page for SapientTours(Responsive)
 
-### 7. UC7-> Temprature Table
+###Â 7. UC7-> UI for agoda.com
+Create main page of agoda.com
