@@ -15,14 +15,13 @@ Create site called "Sapient Tours" by adding nav bars, image list, footers which
 ### 4. UC4->Flex Calculator
 Create calculator using flexbox layout, which shows how to create complex layouts using flexbox properties.
 
-
 ## Week2
 
-### 5. UC5-> UI for agoda.com
-Create main page of agoda.com
+### 5. UC5->Temperature table
+Create a table which consists temperatures in 2012.
 
-
-### 6. UC6->Sapient Tours
+### 6. UC6->Sapient Tours
 Create a web page for SapientTours(Responsive)
 
-### 7. UC7-> Temprature Table
+### 7. UC7->UI for agoda.com
+Create main page of agoda.com
