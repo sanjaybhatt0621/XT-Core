@@ -1,5 +1,4 @@
 # Use Cases Details
 
--> UC1
-Create a console calculator for 2 inputs and one operation. 
-
+##1 UC1: Console Calculator
+Create a console calculator for 2 inputs and one operation.

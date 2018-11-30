@@ -1,3 +1,4 @@
-# JS-ES6
-## The hands-on folder contains all the activities done during training
-## The Use-case folder contains the use cases
+# Use Cases Details
+
+##1 UC1: Console Calculator
+Create a console calculator for 2 inputs and one operation.

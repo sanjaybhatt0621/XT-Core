@@ -1,0 +1,66 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+    .main , .side
+        {
+            width: 50%;
+            float : left;
+            padding: 20px;
+        }
+        .main
+        {
+            background-color: red;
+        }
+        .side
+        {
+            background-color: blue;
+            
+        }
+        /* .side::after
+        {
+            content: "";
+            clear:both;
+            display: block;
+        } */
+        .containner::after
+        {
+            content:  "";
+            clear:both;
+            display: block;
+        }
+        .containner
+        {
+          /* float:left; */
+            width:100%;
+          
+            
+            border: 5px solid yellowgreen;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class = "containner">
+        
+        <div class="main">
+            Hello
+        </div>
+        <div class="side">
+            side
+        </div>
+    </div>
+    
+</body>
+</html>

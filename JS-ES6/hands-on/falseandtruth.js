@@ -167,3 +167,108 @@ console.log(page,args);
 }
 doWeblog('productPage' , 13 , 'Test' , 90);
 doWeblog('loginPage' , 'admin' , 'admin');
+
+
+
+
+//way 2 : inline assignment : named function
+
+const hi = function sayHi()
+{
+    return 'hi';
+}
+//console.log(hi(),sayHi());
+console.log(hi());
+
+//way3 inline assignment: anonymus function
+const greet = function()
+{
+    return ''
+};
+
+
+//way 3 : with args and parameters
+const add1 = function(a=0, b=0)
+{
+    return a+b;
+}
+
+console.log(add1(10,10));
+
+
+
+//Function literal in ES6 : Lambda Functions:
+//Fat arrows
+
+//Arrow
+const greet1= () => {
+    console.log("greetins!");
+}
+
+greet1();
+
+
+//one line of body
+const hi1 = () => console.log('hi');
+
+//Args and parameters : single arg
+const greet2 = name => console.log(name);
+greet2('Sanjay');
+
+const greetMe = (name = 'name') => console.log(name);
+greetMe('Sanjay');
+
+var num1 = 100;
+
+function one()
+{
+    var num1 = 900;
+    console.log('one')
+
+    return function two()
+    {
+        return num1++;
+    }
+}
+
+var two = one();
+console.log(two());
+
+//constructor pattern
+
+function Employee()
+{
+
+}
+let emp = new Employee();
+//console.log(emp);
+console.dir(emp);
+console.log(Employee.prototype);
+
+
+//Literal pattern
+let customer = {
+    id : 1,
+    name : 'ram'
+}
+console.dir(customer);
+
+//ES6
+
+class Account
+{
+    constructor(id=1 , name='default')
+    {
+        this.accountNo = id;
+        this.name = name;
+    }
+    withdraw()
+    {
+        return 'With draw';
+    }
+    deposit()
+    {
+        return 'deposit';
+    }
+}
+
