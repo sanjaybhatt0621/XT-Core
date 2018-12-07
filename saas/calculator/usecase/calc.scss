@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+
+$dark-blue: #031634;
+$medium-blue: #033649;
+$light-blue: #036564;
+$tan: #cdb380;
+$light-tan: #e8ddcb;
+
+$background: $light-blue;
+$button-press-background: $dark-blue;
+$font-color: $dark-blue;
+$button-background: $light-tan;
+$font-stack: 'Source Serif Pro', serif;
+
+*, html {
+  background-color: $background !important;
+  color: $font-color !important;
+  font-family: $font-stack;
+}
+
+h1 {
+  font-weight: 400;
+  color: $light-tan !important;
+}
+
+button {
+  border: 10px solid $background !important;
+  background-color: $button-background !important;
+  margin: 0px 0 0 0;
+  transition-property: color, background-color;
+  transition-duration: .2s;
+}
+button:active {
+  background-color: $button-press-background !important;
+  color: $light-tan !important;
+}
+.calcs {
+  height: 100%;
+  border: 10px solid $background;
+  color: $light-tan !important;
+  border-bottom: 1px solid $light-tan !important;
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+}
+
+.row {
+  /*order: 1px solid gray; */
+}

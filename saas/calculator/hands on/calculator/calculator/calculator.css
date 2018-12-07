@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+html {
+  background-color: #036564 !important;
+  color: #031634 !important;
+  font-family: "Source Serif Pro", serif;
+}
+
+header {
+  height: 100%;
+  border: 10px solid #036564;
+  color: #e8ddcb !important;
+  border-bottom: 1px solid #e8ddcb !important;
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid aquamarine;
+}
+
+article {
+  border: 10px solid #036564 !important;
+  background-color: #e8ddcb !important;
+  margin: 0px 0 0 0;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+  padding: 2px;
+  margin: 1px;
+  line-height: 50px;
+  background: paleturquoise;
+  flex: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+article.right {
+  text-align: right;
+  padding-right: 10px;
+  background-color: azure;
+}
+
+article:active {
+  background-color: #031634 !important;
+  color: #e8ddcb !important;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.input {
+  height: 100%;
+  border: 10px solid #036564;
+  color: #031634 !important;
+  border-bottom: 1px solid #e8ddcb !important;
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: right;
+}
+
+/*# sourceMappingURL=calculator.css.map */

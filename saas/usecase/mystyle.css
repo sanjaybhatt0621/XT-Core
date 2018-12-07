@@ -1,0 +1,38 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+#main {
+  width: 5em;
+}
+
+#sidebar {
+  width: 5em;
+}
+
+p.foo {
+  border-color: blue;
+}
+
+#main {
+  content: "First content";
+  content: "First time refrence";
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.box {
+  -webkit-transform: rotate(30 deg);
+  -ms-transform: rotate(30 deg);
+  transform: rotate(30 deg);
+}
+
+/*# sourceMappingURL=mystyle.css.map */

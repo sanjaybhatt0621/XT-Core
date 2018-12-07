@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+/* *, html {
+  background-color: #036564 !important;
+  color: #031634 !important;
+  font-family: "Source Serif Pro", serif;
+}
+
+h1 {
+  font-weight: 400;
+  color: #e8ddcb !important;
+}
+
+button {
+  border: 10px solid #036564 !important;
+  background-color: #e8ddcb !important;
+  margin: 0px 0 0 0;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+}
+
+button:active {
+  background-color: #031634 !important;
+  color: #e8ddcb !important;
+}
+
+.calcs {
+  height: 100%;
+  border: 10px solid #036564;
+  color: #e8ddcb !important;
+  border-bottom: 1px solid #e8ddcb !important;
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+} */
+
+.row {
+  /*order: 1px solid gray; */
+}
+
+html, body
+{
+    margin : 0px;
+    font-size: 1em;
+}
+section
+{
+    display:flex;
+}
+#containner
+{
+    margin:0 auto;
+    width: 80%;
+    margin-top: 100px;
+    border: 1px solid;
+}
+article
+{
+    font-family: sans-serif;
+    font-size: 20;
+    background-color: lightcyan ;
+    width:24%;
+    height:13%;
+    border: 1px solid bisque;
+    margin: 2px;
+    padding:10px;
+    text-align: center;
+}
+#first
+{
+    text-decoration: underline;
+    text-align: right;
+    background-color: whitesmoke;
+    display:block;
+    width:100%;
+    
+}
+
+@media(min-width: 600px)
+{
+  *
+  {
+    font-size: 1em;
+  }
+  #first
+  {
+    text-align: right;
+    
+  }
+}
+
+@media(min-width:980px)
+{
+#first
+  {
+    text-align: right;
+  }
+  *
+  {
+    font-size: 2em;
+  }
+}
+/*# sourceMappingURL=calc.css.map */

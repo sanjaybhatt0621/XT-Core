@@ -1,0 +1,67 @@
+$font-stack: Helvetica , sans-serif;
+$primary-color : #333;
+$width: 5em;
+$text-align: left;
+
+body
+{
+    font : 100% $font-stack;
+    color: $primary-color;
+    text-align: $text-align;
+
+}
+
+#main
+{
+    width: $width;
+}
+
+#sidebar
+{
+    width:$width;
+}
+
+$name : foo;
+$attr: border;
+
+p.#{$name}
+{
+    #{$attr}-color: blue;
+}
+
+$content:"First content";
+$content: "Second content" !default;
+$new_content: "First time refrence" !default;
+
+#main
+{
+    content: $content;
+    content: $new_content;
+}
+
+@for $i from 1 to 3
+{
+    .item-#{$i}{
+        width: 2em*$i;
+    }
+}
+
+@mixin tranform($property)
+{
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.box
+{
+    @include tranform(rotate(30 deg));
+}
+
+@mixin colors($text , $background , $border)
+{
+    border-color: $border;
+    background-color: #333;
+}
+
+

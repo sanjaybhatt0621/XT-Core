@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CASIO</h1>
+        </header>
+        <section class="vertical">
+            <section >
+                <input id="print" class="right input" type="text" name="input" disabled>
+            </section>
+            <section>
+                <article onClick="go('ac');">AC</article>
+                <article onClick="go('log');">log</article>
+                <article onClick="go('sin');">sine</article>
+                <article onClick="go('tan');">tan</article>
+            </section>
+            <section>
+                <article onClick="go(7);">7</article>
+                <article onClick="go(8);">8</article>
+                <article onClick="go(9);">9</article>
+                <article onClick="go(' * ');">*</article>
+            </section>
+            <section>
+                <article onClick="go(4);">4</article>
+                <article onClick="go(5);">5</article>
+                <article onClick="go(6);">6</article>
+                <article onClick="go(' - ');">-</article>
+            </section>
+            <section>
+                <article onClick="go(1);">1</article>
+                <article onClick="go(2);">2</article>
+                <article onClick="go(3);">3</article>
+                <article onClick="go(' + ');">+</article>
+            </section>
+            <section>
+                <article onClick="go(0);">.</article>
+                <article onClick="go('.');">0</article>
+                <article onClick="go('eval');">=</article>
+                <article onClick="go(' / ');">/</article>
+            </section>
+        </section>
+    </div>
+    <script src="src/calculator.js"></script>
+</body>
+</html>
+

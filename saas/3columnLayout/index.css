@@ -1,0 +1,37 @@
+body,
+html,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccffff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-grid {
+  display: flex;
+  padding: 10px;
+}
+.section-grid .section-grid__col3, .section-grid .section-grid__col2, .section-grid .section-grid__col1 {
+  padding: 10px;
+}
+.section-grid__col1 {
+  flex: 1 1 33%;
+  border: 2px #1eff00 solid;
+  background-color: red;
+}
+.section-grid__col2 {
+  flex: 1 1 33%;
+  border: 2px #1eff00 solid;
+  background-color: #1eff00;
+}
+.section-grid__col3 {
+  flex: 1 1 33%;
+  border: 2px #1eff00 solid;
+  background-color: #bb92e2;
+}
+
+/*# sourceMappingURL=index.css.map */
